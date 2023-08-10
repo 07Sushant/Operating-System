@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linux Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin: 0;
+        }
+        ol {
+            margin-left: 2rem;
+            padding-left: 2rem;
+        }
+        li {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        code {
+            font-family: "Courier New", monospace;
+            background-color: #f0f0f0;
+            padding: 0.2rem;
+            border-radius: 3px;
+        }
+        p {
+            margin: 0.5rem 0;
+        }
+        h2 {
+            margin-top: 2rem;
+            font-size: 1.2rem;
+        }
+        ul {
+            margin-left: 2rem;
+            padding-left: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Linux Commands Execution</h1>
+    <ol>
+        <li>
+            <p><code>echo "Sum is $b"</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Prints the value of variable 'b' along with the text "Sum is".</p>
+        </li>
+        <li>
+            <p><code>wc &lt; 2.txt</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Counts the lines, words, and characters in the file '2.txt' using input redirection.</p>
+        </li>
+        <li>
+            <p><code>x=2<br>y=3</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Assigns the values 2 to 'x' and 3 to 'y'.</p>
+        </li>
+        <li>
+            <p><code>let "a=$x+$y"<br>b=`expr $x + $y`<br>echo "Sum is $a"<br>echo "Sum is $b"</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Calculates the sum of 'x' and 'y', storing it in 'a', and using 'expr' to store the sum in 'b'. Prints both results.</p>
+        </li>
+        <li>
+            <p><code>touch if_else.sh</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Creates an empty shell script file named 'if_else.sh'.</p>
+        </li>
+        <li>
+            <p><code>nano nano.sh</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Tries to open a shell script file named 'nano.sh' for editing using the 'nano' editor (assuming typo).</p>
+        </li>
+        <li>
+            <p><code>nano if_else.sh</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Opens the shell script file 'if_else.sh' for editing using the 'nano' editor.</p>
+        </li>
+        <li>
+            <p><code>./if_else.sh 2 10</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Attempts to execute the shell script 'if_else.sh' with arguments 2 and 10, but gets "Permission denied" due to lack of execution permission.</p>
+        </li>
+        <li>
+            <p><code>chmod +x if_else.sh</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Changes the permissions of 'if_else.sh' to make it executable.</p>
+        </li>
+        <li>
+            <p><code>./if_else.sh 2 10</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Executes the modified 'if_else.sh' script with arguments 2 and 10 after changing permissions. Displays relevant output based on the script.</p>
+        </li>
+        <li>
+            <p><code>echo "value_of 2"<br>echo "value_of 10"</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Prints the text "value_of 2" and "value_of 10" to the console, but there's no prior mention of the 'value_of' command.</p>
+        </li>
+        <li>
+            <p><code>echo "No_of_arguments: 2"</code></p>
+            <p style="margin: 0.5rem 0; font-style: italic;">Action: Prints the text "No_of_arguments: 2" to the console.</p>
+        </li>
+    </ol>
+
+    <h2>Files Created with the ".sh" Extension:</h2>
+    <ul>
+        <li>if_else.sh</li>
+        <li>nano.sh (assuming typo)</li>
+    </ul>
+
+
+    <footer>
+        <p style="text-align: center; margin-top: 2rem;">
+            Created by <a href="https://github.com/07Sushant" target="_blank" rel="noopener noreferrer">Sushant</a>
+        </p>
+    </footer>
+</body>
+</html>
