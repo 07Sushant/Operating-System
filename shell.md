@@ -1,6 +1,6 @@
 # Practical Task 2
 
-Commands Execution
+# Commands Execution
 
 1. Command: echo "Sum is $b"
    Action: Prints the value of variable 'b' along with the text "Sum is".
@@ -49,9 +49,9 @@ Commands Execution
 12. Command: echo "No_of_arguments: 2"
     Action: Prints the text "No_of_arguments: 2" to the console.
 
-Files Created with the ".sh" Extension:
+# Files Created with the ".sh" Extension:
 - if_else.sh
 - nano.sh (assuming typo)
 
-Created by Sushant
+# Created by Sushant
 GitHub: https://github.com/07Sushant
